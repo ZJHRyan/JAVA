@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>1090</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>::CommissionEmployee
+--
+-grossSales: double
+-commissionRate: double
+--
++CommissionEmployee(String _firstName, String _lastName, String _socialSecurityNumber, boolean _isSimpleFormate, double _grossSales, double _commissionRate): ctor
++setGrossSales(double grossSales): void
++getGrossSales(): double
++setCommissionRate(double commissionRate): void
++getCommissionRate(): double
++earnings(): double
++toString(): String
++toString2(): String
++toString3(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>720</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>/::Employee/
+--
+-firstName: String
+-lastName: String
+-socialSecurityNumber: String
+-levelLetter: String
+-indexColor: Color
++isSimpleFormate = true: boolean
+--
++Employee(String _firstName, String _lastName, String _socialSecurityNumber, boolean _isSimpleFormate): ctor
++getFirstName(): String
++getLastName(): String
++getSocialSecurityNumber(): String
++setLevel(String _levelLetter): void
++getLevel(): String
++setColor(Color _index4cColor): void
++getColor(): Color
++toString(): String
++toString2(): String
++toString3(): String
++earnings(): double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
